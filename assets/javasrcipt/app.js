@@ -15,18 +15,19 @@ var config = {
 var database = firebase.database();
 
 $("#submit").on("click", function(event) {
-    var startYear = $("#start-year").val();
-    var employeeName = $("#employee-name".val());
-    var role = $("role").val();
+    event.preventDefault();
     
-    database.ref("/employee").push(startYear);
-    database.ref("/employee").push(employeeName);
-    database.ref("/employee").push(role);
+    database.ref("/employee").push({
+        employeeName: $("#employee-name").val(),
+        role: $("role").val(),
+        startYear: $("#start-year").val(),
+    })
 
     console.log(database.ref("/employee"));
 });
 
-// database.on("child_added", function(snapshot) {
-//     if ()
-
-// });
+database.on("child_added", function(snapshot) {
+    console.log("snapshot").val(employeeName);
+    console.log("snapshot").val(role);
+    console.log("snapshot").val(startYear);
+});
