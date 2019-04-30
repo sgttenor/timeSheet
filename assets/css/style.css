@@ -1,7 +1,9 @@
-h1, .text { 
+h1 { 
     text-align: center !important;
     color: #ffffff !important;
 }
+
+
 
 .jumbotron {
     background-color: black;

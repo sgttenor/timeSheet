@@ -1,15 +1,16 @@
 var employeeInfo = [];
 
 var config = {
-    apiKey: "AIzaSyCiofi6n_Cz7LalBpaa87aEV_PTQWKtNHo",
-    authDomain: "tester-camper.firebaseapp.com",
-    databaseURL: "https://tester-camper.firebaseio.com",
-    projectId: "tester-camper",
-    storageBucket: "tester-camper.appspot.com",
-    messagingSenderId: "1079949016767"
+    apiKey: "AIzaSyAra_wEx8KyrA_585qRQQyszXEBUlq9XKU",
+    authDomain: "tenorwolf-bee4e.firebaseapp.com",
+    databaseURL: "https://tenorwolf-bee4e.firebaseio.com",
+    projectId: "tenorwolf-bee4e",
+    storageBucket: "tenorwolf-bee4e.appspot.com",
+    messagingSenderId: "379852997836"
   };
-
   firebase.initializeApp(config);
+
+  
 
 var database = firebase.database();
 

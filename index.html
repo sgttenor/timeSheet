@@ -5,8 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+   
     <!-- Bootstrap CSS -->
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -18,9 +20,10 @@
 
     <div class="jumbotron">
         <div class="row">
-
             <h1 class="display-4 mx-auto">Employee Data Management</h1>
-            <h5 class="text position-center">A Comprehensive Directory of Emloyee Blillable Hours</h5>
+            <div class="row">
+                <h4 class="text position-center">A Comprehensive Directory of Emloyee Blillable Hours</h4>
+            </div>
         </div>
     </div>
     <div class="container1">
@@ -73,8 +76,7 @@
 
             <div class="form-group">
                 <label for="search-term">Enter Name</label>
-                <input type="search" class="form-control" id=role" aria-describedby="searchTerm"
-                    placeholder="Role">
+                <input type="search" class="form-control" id=role" aria-describedby="searchTerm" placeholder="Role">
             </div>
 
             <div class="form-group">
