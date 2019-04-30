@@ -1,0 +1,16 @@
+h1 { 
+    text-align: center;
+   
+    color: #ffffff !important;
+}
+
+.jumbotron {
+    background-color: black;
+}
+
+body {
+
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
